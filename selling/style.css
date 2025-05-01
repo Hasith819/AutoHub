@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* body {
+  background-color: #410425;
+} */
+
+header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #410425;
+  color: #e4e4e4;
+  padding: 1em 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  border-bottom: 1px solid #ffffff5a;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2.5em;
+  font-size: 0.9rem;
+}
+
+nav a {
+  font-family: poppins;
+  text-decoration: none;
+  color: #eeeeee;
+}
+
